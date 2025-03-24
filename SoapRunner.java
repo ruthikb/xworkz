@@ -1,0 +1,61 @@
+class SoapRunner{
+	public static void main(String arg[]){
+		Soap soap=new Soap();
+		soap.brand="Lux";
+		soap.price=123;
+		soap.scent="Lavender";
+		System.out.println("the soap brand is :"+soap.brand);
+		System.out.println("the soap price is:"+soap.price);
+		System.out.println("the soap scent is:"+soap.scent);
+		
+		Soap soap1=new Soap();
+		soap1.brand="Dove";
+		soap1.price=150;
+		soap1.scent="Floral";
+		System.out.println("the soap brand is :"+soap1.brand);
+		System.out.println("the soap price is:"+soap1.price);
+		System.out.println("the soap scent is:"+soap1.scent);
+		
+		Soap soap2=new Soap();
+		soap2.brand="Santoor";
+		soap2.price=169;
+		soap2.scent="Sandalwood";
+		System.out.println("the soap brand is :"+soap2.brand);
+		System.out.println("the soap price is:"+soap2.price);
+		System.out.println("the soap scent is:"+soap2.scent);
+		
+		Soap soap3=new Soap();
+		soap3.brand="Park Avenue";
+		soap3.price=144;
+		soap3.scent="Fresh";
+		System.out.println("the soap brand is :"+soap3.brand);
+		System.out.println("the soap price is:"+soap3.price);
+		System.out.println("the soap scent is:"+soap3.scent);
+		
+		Soap soap4=new Soap();
+		soap4.brand="Cinthol";
+		soap4.price=195;
+		soap4.scent="Lemon";
+		System.out.println("the soap brand is :"+soap4.brand);
+		System.out.println("the soap price is:"+soap4.price);
+		System.out.println("the soap scent is:"+soap4.scent);
+		
+		Soap soap5=new Soap();
+		soap5.brand="PEARS";
+		soap5.price=361;
+		soap5.scent="Pear";
+		System.out.println("the soap brand is :"+soap5.brand);
+		System.out.println("the soap price is:"+soap5.price);
+		System.out.println("the soap scent is:"+soap5.scent);
+		
+		Soap soap6=new Soap();
+		soap6.brand="Dettol";
+		soap6.price=132;
+		soap6.scent="Cologne";
+		System.out.println("the soap brand is :"+soap6.brand);
+		System.out.println("the soap price is:"+soap6.price);
+		System.out.println("the soap scent is:"+soap6.scent);
+	
+	}
+
+}
